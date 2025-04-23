@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(Alter-Bridge.ttf);
+}
+body{
+    font-family: "Poppins";
+    background-color:#090909;
+    color:#fff;
+    height:100%
+}
+@media only screen and (min-width:1100px){
+    [class*=middleText]{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        text-align:center
+    }
+    h1{
+        font-size:80px
+    }
+    h2{
+        font-size:70px
+    }
+    h3{
+        font-size:40px;
+    }
+}
+@media only screen and (max-width:1099px){
+    [class*=middleText]{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        text-align:center
+    }
+    h3{
+        font-size:65px;
+    }
+    h1{
+        font-size:45px
+    }
+}
+.justify{
+    text-align:center
+}
+hr{
+    background-color:#fff
+}
+/* background-image:url(resource/bg.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center; */
